@@ -1,6 +1,7 @@
 package com.startspring.springboot.domain.posts;
 
 import com.startspring.springboot.domain.BaseTimeEntity;
+import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -41,6 +42,4 @@ public class Posts extends BaseTimeEntity {
         this.title = title;
         this.content = content;
     }
-
-
 }
